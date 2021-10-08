@@ -1,10 +1,22 @@
 {
-  "name": "logger",
+  "name": "@cocotran/logger",
   "version": "1.0.0",
-  "description": "",
+  "description": "Thin wrapper around console.log",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "cocotran",
+  "license": "MIT",
+  "main": "logger/logger.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cocotran/logger/tree/main/js"
+  },
+  "keywords": [
+    "logger",
+    "javascript"
+  ]
 }
